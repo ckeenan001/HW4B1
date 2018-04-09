@@ -2,6 +2,9 @@
 //Chris Keenan and KC Vasilas
 //I pledge on my honor that I have abided by the Stevens honor system
 
+#include <fstream>
+#include <PostScript.hh>
+
 int main(){
   Postscript p("test.ps");
  p.line(0,0, 300,400);  // 0 0 moveto 300 400 lineto stroke
