@@ -7,13 +7,13 @@ class Color{
   public:
     Color(int r, int g, int b) : red(r), green(g), blue(b){    }
     setColor(){
-      cout<<
+      cout<<"PostScript code"<<r<<g<<b;
     }
     setFillColor(){
-      cout<<
+      cout<<"PostScript code"<<r<<g<<b;
     }
     setStrokeColor(){
-      cout<<
+      cout<<"PostScript code"<<r<<g<<b;
     }
 
 
