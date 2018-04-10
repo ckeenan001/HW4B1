@@ -1,4 +1,6 @@
-#include <PostScript>
+#pragma once
+
+#include "PostScript"
 
 
 class Rect: public PostScript {

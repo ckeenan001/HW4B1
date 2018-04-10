@@ -3,7 +3,12 @@
 //I pledge on my honor that I have abided by the Stevens honor system
 
 #include <fstream>
-#include <PostScript.hh>
+#include "PostScript.hh"
+#include "rect.hh"
+#include "circle.hh"
+#include "triangle.hh"
+#include "color.hh"
+
 
 int main(){
   Postscript p("test.ps");
